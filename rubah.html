@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Vidalaw</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/heroes/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="features.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .hero {
+        background-color: rgb(194, 175, 90);
+      }
+      .main {
+        background-color: rgb(234, 230, 224);
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="heroes.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="fixed-top" style="display: fixed-top;">
+    <div class="logo"><img src="vida-03.png" alt="" style="width: 150px; height: auto;"></div>
+    <ul class="nav-links">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#service">SERVICE</a></li>
+      <li><a href="#testimonial">TESTIMONIAL</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+
+    
+<main class="main">
+  <section class="hero-section col">
+    <!-- Video Background -->
+    <video class="video-bg" autoplay muted loop>
+        <source src="jakarta.mp4" type="video/mp4">
+    </video>
+</section>
+
+<div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold" style="color: black;">Anda Tidak Sendiri.</h1>
+    <h1 class="display-4 fw-bold" style="color: black;">Kami Ada Untuk Membantu</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4" style="color: black;">Di Vidalaw, kami percaya bahwa setiap orang berhak mendapatkan perlindungan hukum yang jelas, kuat, dan dapat diandalkan. Dengan pengalaman dan integritas sebagai fondasi, kami hadir untuk memastikan setiap langkah hukum Anda berjalan dengan aman, terarah, dan memberi hasil terbaik.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Konsultasi</button>
+        <button type="button" class="btn btn-outline-info btn-lg px-4">WhatsApp</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="heros.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <!--Layanan-->
+  <div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom text-dark" style="text-align: center;" id="service">Our Service</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('1.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Layanan litigasi</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="vida-icon-04.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>Earth</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>3d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('2.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Layanan non-litigasi</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="vida-icon-04.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>Pakistan</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>4d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('3.webp');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Layanan spesialis lainnya</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="vida-icon-04.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>California</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>5d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--testimonial-->
+  <section class="py-5" id="testimonial">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4 text-dark">Testimonial</h2>
+    <p class="text-center text-muted mb-5">Apa pendapat mereka tentang layanan kami?</p>
+
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center p-4 border-0 testimonial-card">
+          <img src="a-01.jpg" class="testimonial-img mx-auto mb-3" alt="">
+          <p class="fst-italic">"Pelayanan sangat cepat dan hasil sangat memuaskan, saya pasti akan order lagi."</p>
+          <h5 class="fw-bold mb-0">Ahmad Yusuf</h5>
+          <small class="text-muted">Customer</small>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center p-4 border-0 testimonial-card">
+          <img src="download (1).jpeg" class="testimonial-img mx-auto mb-3" alt="">
+          <p class="fst-italic">"Kualitas terbaik dan komunikasi sangat baik. Highly recommended!"</p>
+          <h5 class="fw-bold mb-0">Siti Rahma</h5>
+          <small class="text-muted">Entrepreneur</small>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center p-4 border-0 testimonial-card">
+          <img src="download.jpeg" class="testimonial-img mx-auto mb-3" alt="">
+          <p class="fst-italic">"Harga bersahabat, pelayanan ramah, dan hasil sangat rapi."</p>
+          <h5 class="fw-bold mb-0">Jonathan</h5>
+          <small class="text-muted">Freelancer</small>
+        </div>
+      </div>
+
+      <!-- Tambah card tinggal copy -->
+      <!-- <div class="col-12 col-md-6 col-lg-4"> ... </div> -->
+
+    </div>
+  </div>
+</section>
+
+  <div class="b-example-divider"></div>
+<!--Footers-->
+  <footer class=" text-dark py-5">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Company Info -->
+            <div class="col-lg-4 col-md-6">
+                <h5 class="mb-4"><img src="vida-03.png" alt="" style="width: 150px;"></h5>
+                <p class="mb-4">We are dedicated to providing innovative solutions that help businesses grow and succeed
+                    in the digital age.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon bg-primary"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon bg-info"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon bg-danger"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon bg-primary"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-4 col-md-6">
+                <h5 class="mb-4">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="footer-link">Home</a></li>
+                    <li class="mb-2"><a href="#" class="footer-link">About</a></li>
+                    <li class="mb-2"><a href="#" class="footer-link">Services</a></li>
+                    <li class="mb-2"><a href="#" class="footer-link">Portfolio</a></li>
+                    <li class="mb-2"><a href="#" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-4 col-md-6">
+                <h5 class="mb-4" id="contact">Contact Info</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-3">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+                        Gedung Setiabudi Building 2 Lantai 6 Suite 603D, Jl. H. R. Rasuna Said No.Kav. 62, Kuningan, Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12920
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+1234567890" class="footer-link">+62 8561507488</a>
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-envelope me-2"></i>
+                        <a href="mailto:contact@example.com" class="footer-link">ahmad@maximus-teknologi.co.id</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <hr class="mb-4">
+                <div class="text-center">
+                    <p class="mb-0">&copy; 2025 Vidalaw.co.id All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+</main>
+
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navLinks.classList.toggle("open");
+    });
+  </script>
+      
+  </body>
+</html>

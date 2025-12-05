@@ -6,7 +6,7 @@
     }
 
     body {
-      background: #d7ad32ff;
+      background: #ffffffff;
       color: #ffffffff;
     }
 
@@ -116,6 +116,7 @@
       }
     }
 
+//heroes
 
     
 /* Service */
@@ -265,4 +266,24 @@
       object-fit: cover;
       border-radius: 50%;
       border: 3px solid #05384aff; /* warna accent bootstrap */
+    }
+
+    //heroes section
+       /* Agar video memenuhi layar */
+    .video-bg {
+        position: absolute;
+        top: 0; left: 0;
+        width: column; height: auto;
+        object-fit: cover;
+        z-index: -1;
+        filter: brightness(60%); /* Sesuaikan tingkat gelap */
+    }
+    .hero-section {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
     }
