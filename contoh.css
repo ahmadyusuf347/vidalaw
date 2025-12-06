@@ -11,6 +11,7 @@
       left: 0;
       z-index: 1000;
       text-color: #000000;
+      box-shadow: 0 3px 5px rgba(0,0,0,0.15);
     }
 
     .logo {
@@ -271,3 +272,4 @@
     filter: grayscale(0);
     transform: scale(1.05);
 }
+
