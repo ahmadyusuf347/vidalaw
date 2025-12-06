@@ -18,7 +18,7 @@
       <li><a href="#">HOME</a></li>
       <li><a href="#about">ABOUT</a></li>
       <li><a href="#service">SERVICE</a></li>
-      <li><a href="#testimonial">TESTIMONIAL</a></li>
+      <li><a href="#partner">PARTNER</a></li>
       <li><a href="#contact">CONTACT</a></li>
     </ul>
     <div class="hamburger">
@@ -41,6 +41,37 @@
     </div>
 </section>
 
+<!-- About Section -->
+<section class="py-5" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Image -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="About-06.png" class="container img-fluid rounded-3" alt="About">
+      </div>
+
+      <!-- Text -->
+      <div class="container col-md-6">
+        <h2 class="fw-bold mb-3">About Us</h2>
+        <p class="text-muted" style="text-align: justify;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam, blanditiis vel veritatis voluptatum autem, consequatur et expedita doloremque totam sit, voluptas laboriosam. Consequuntur consectetur harum blanditiis adipisci odit dolor?
+        </p>
+
+        <ul class="list-unstyled">
+          <li class="mb-2"><i class="bi bi-check-circle text-success"></i> Tim profesional & berpengalaman</li>
+          <li class="mb-2"><i class="bi bi-check-circle text-success"></i> Layanan cepat & responsif</li>
+          <li class="mb-2"><i class="bi bi-check-circle text-success"></i> Mengedepankan kualitas & inovasi</li>
+        </ul>
+
+        <a href="#" class="btn btn-dark px-4 mt-2">Konsultasi Sekarang</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 <!--Layanan-->
   <div class="container px-4 py-5" id="custom-cards">
     <h2 class="pb-2 border-bottom text-dark" style="text-align: center;" id="service">Our Service</h2>
@@ -56,7 +87,7 @@
               </li>
               <li class="d-flex align-items-center me-3">
                 <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                <small>Earth</small>
+                <small>Indonesia</small>
               </li>
               <li class="d-flex align-items-center">
                 <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
@@ -77,7 +108,7 @@
               </li>
               <li class="d-flex align-items-center me-3">
                 <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                <small>Pakistan</small>
+                <small>Indonesia</small>
               </li>
               <li class="d-flex align-items-center">
                 <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
@@ -98,7 +129,7 @@
               </li>
               <li class="d-flex align-items-center me-3">
                 <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                <small>California</small>
+                <small>Indonesia</small>
               </li>
               <li class="d-flex align-items-center">
                 <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
@@ -110,7 +141,56 @@
       </div>
     </div>
   </div>
+<!-- Partner Section -->
+<section class="py-5" id="partner">
+    <div class="container text-center mb-4">
+        <h2 class="fw-bold">Our Partners</h2>
+        <p class="text-muted">Kami bekerja sama dengan berbagai perusahaan</p>
+    </div>
 
+    <div id="partnerCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row justify-content-center align-items-center g-4">
+                    <div class="col-4 col-md-2 partner-logo">
+                        <img src="partner-37.png" class="img-fluid">
+                    </div>
+                    <div class="col-4 col-md-2 partner-logo">
+                        <img src="partner-32.png" class="img-fluid">
+                    </div>
+                    <div class="col-4 col-md-2 partner-logo">
+                        <img src="partner-33.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row justify-content-center align-items-center g-4">
+                    <div class="col-4 col-md-2 partner-logo">
+                        <img src="partner-34.png" class="img-fluid">
+                    </div>
+                    <div class="col-4 col-md-2 partner-logo">
+                        <img src="partner-35.png" class="img-fluid">
+                    </div>
+                    <div class="col-4 col-md-2 partner-logo">
+                        <img src="partner-36.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#partnerCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#partnerCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
 <!--Footers-->
 <div class="b-example-divider"></div>
   <footer class=" text-dark py-5">
@@ -135,7 +215,7 @@
                     <li class="mb-2"><a href="#" class="footer-link">Home</a></li>
                     <li class="mb-2"><a href="#" class="footer-link">About</a></li>
                     <li class="mb-2"><a href="#" class="footer-link">Services</a></li>
-                    <li class="mb-2"><a href="#" class="footer-link">Portfolio</a></li>
+                    <li class="mb-2"><a href="#partner" class="footer-link">Partner</a></li>
                     <li class="mb-2"><a href="#" class="footer-link">Contact</a></li>
                 </ul>
             </div>
@@ -168,9 +248,15 @@
                     <p class="mb-0">&copy; 2025 Vidalaw.co.id All rights reserved.</p>
                 </div>
             </div>
+            <div class="card text-center">
+  </div>
         </div>
     </div>
 </footer>
+
+
+
+
 
 <!--Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
@@ -182,6 +268,17 @@
       hamburger.classList.toggle("active");
       navLinks.classList.toggle("open");
     });
-  </script>  
+  </script> 
+
+  <!--parter script-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// Auto slide lebih cepat
+let partnerCarousel = document.querySelector('#partnerCarousel');
+let carousel = new bootstrap.Carousel(partnerCarousel, {
+  interval: 2000, // kecepatan pergantian
+  wrap: true
+});
+</script>
 </body>
 </html>
